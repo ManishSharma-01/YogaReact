@@ -1,0 +1,83 @@
+.register {
+    padding: 20px; 
+    min-height: calc(100vh - 50px - 2 * 20px); 
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(src/assets/images/single.png); */
+    background-size: cover;
+    align-items: center;
+  }
+  
+  .registerTitle {
+    font-size: 50px;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm .formGroup {
+    margin: 10px 0;
+  }
+  
+  .registerInput {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .imageUpload {
+    display: flex;
+    align-items: center;
+  }
+  
+  .imageUpload i {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .genderOptions {
+    display: flex;
+  }
+  
+  .genderOptions label {
+    margin-right: 10px;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .registerForm .formGroup {
+    margin-bottom: 20px;
+  }
+
+  
+  .imageUpload i {
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 40px;
+  }
+  

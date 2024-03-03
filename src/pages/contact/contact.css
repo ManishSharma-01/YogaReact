@@ -1,0 +1,86 @@
+.contactUsContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+  }
+  
+  .socialIcons {
+    display: flex;
+  }
+  
+  .socialIcons a {
+    margin-right: 10px;
+  }
+  
+  .topIcon {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  
+  .topIcon.fa-facebook-f,
+  .topIcon.fa-instagram,
+  .topIcon.fa-twitter,
+  .topIcon.fa-linkedin-in {
+    font-size: 28px;
+    color: black;
+  }
+  
+  
+  .stayConnected {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 100px;
+  }
+  
+  .contactForm {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contactForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  .contactForm {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .contactForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .contactForm button {
+    padding: 10px 20px;
+    background-color: teal;
+    width: 200px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  

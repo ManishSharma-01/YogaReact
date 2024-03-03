@@ -1,0 +1,39 @@
+.footer {
+  background-color:rgb(93, 148, 139);
+  color: #fff;
+  padding: 20px 0;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footerLeft p {
+  font-size: 14px;
+  margin: 0;
+}
+
+  
+  .footerLinks {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .footerLinks li {
+    margin-right: 10px;
+  }
+  
+  .footerLinks a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
